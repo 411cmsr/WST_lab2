@@ -1,0 +1,72 @@
+generalServer:
+  env: "pc"
+  logLevel: "debug" # debug, info, warn, error, fatal
+  persons:
+  - name: "Петр"
+    surname: "Петров"
+    age: 25
+    email: petr@mai.com
+    telephone: +70011234567
+  - name: "Владимир"
+    surname: "Иванов"
+    age: 26
+    email: vladimir@mai.com
+    telephone: +70011234568
+  - name: "Иван"
+    surname: "Иванов"
+    age: 27
+    email: ivan@mail.com
+    telephone: +70011234569
+  - name: "Иммануил"
+    surname: "Канат"
+    age: 28
+    email: immanuil@mail.com
+    telephone: +70011234570
+  - name: "Джордж"
+    surname: "Клуни"
+    age: 29
+    email: george@mail.com
+    telephone: +70011234571
+  - name: "Билл"
+    surname: "Рубцов"
+    age: 30
+    email: bill@mail.com
+    telephone: +70011234572
+  - name: "Марк"
+    surname: "Маркович"
+    age: 31
+    email: mark@mail.com
+    telephone: +70011234573
+  - name: "Галина"
+    surname: "Матвеева"
+    age: 32
+    email: galina@mail.com
+    telephone: +70011234574
+  - name: "Святослав"
+    surname: "Павлов"
+    age: 33
+    email: svjatoslav@mail.com
+    telephone: +70011234575
+  - name: "Ольга"
+    surname: "Беригальц"
+    age: 34
+    email: olga@mail.com
+    telephone: +70011234576
+  - name: "Лев"
+    surname: "Рябинович"
+    age: 35
+    email: leo@mail.com
+    telephone: +70011234577
+database:
+  host: 192.168.253.229
+  user: postgres
+  password: postgres
+  name: wstbd
+  port: 5432
+  sslmode: disable    
+httpserver:
+  runMode: "debug"
+  bindAddr: ":8095"
+  readTimeout: 10s
+  writeTimeout: 10s
+  connectTimeout: 3s
